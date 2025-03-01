@@ -27,6 +27,3 @@ jobs:
 
       - name: Build project
         run: pnpm run build
-
-      - name: Deploy (if needed)
-        run: pnpm run deploy
