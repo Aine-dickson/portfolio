@@ -9,9 +9,9 @@
 
 <p align="center">
   <a href="https://yourwebsite.com"><strong>🌍 Visit My Portfolio</strong></a> |
-  <a href="https://linkedin.com/in/yourprofile">💼 LinkedIn</a> |
-  <a href="https://github.com/yourprofile">💻 GitHub</a> |
-  <a href="mailto:your@email.com">📧 Email</a>
+  <a href="https://wa.me/256777532858">💼 WhatsApp</a> |
+  <a href="https://github.com/Aine-dickson">💻 GitHub</a> |
+  <a href="mailto:ainedixon01@gmail.com">📧 Email</a>
 </p>
 
 ---
@@ -27,13 +27,20 @@
 
 ## 🛠 Tech Stack  
 **Languages:**  
-![Rust](https://img.shields.io/badge/Rust-%23000000.svg?style=flat&logo=rust&logoColor=white)  
+![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?style=flat&logo=html5&logoColor=white)  
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=flat&logo=javascript&logoColor=black)  
+![Rust](https://img.shields.io/badge/Rust-%23B7410E.svg?style=flat&logo=rust&logoColor=white)  
 ![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white)  
 ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)  
 
 **Frameworks & Tools:**  
+![CSS](https://img.shields.io/badge/CSS-%231572B6.svg?style=flat&logo=css3&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%234A90E2.svg?style=flat&logo=tailwindcss&logoColor=white)  
+![Vue.js](https://img.shields.io/badge/Vue.js-%234FC08D.svg?style=flat&logo=vue.js&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-%23E0234E.svg?style=flat&logo=nestjs&logoColor=white)  
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-%230080FF.svg?style=flat&logo=android&logoColor=white)  
-![Actix Web](https://img.shields.io/badge/Actix%20Web-%23008C8C.svg?style=flat&logo=rust&logoColor=white)  
+![Axum](https://img.shields.io/badge/Axum-%23B7410E.svg?style=flat&logo=rust&logoColor=black)
+![Actix Web](https://img.shields.io/badge/Actix%20Web-%2320232A.svg?style=flat&logo=rust&logoColor=white)  
 ![Shuttle](https://img.shields.io/badge/Shuttle-%23007ACC.svg?style=flat)  
 
 ---
@@ -49,16 +56,16 @@
 
 ## 📊 GitHub Stats  
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourgithubusername&show_icons=true&theme=radical" alt="GitHub Stats">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourgithubusername&theme=radical" alt="GitHub Streak">
+  <img src="https://github-readme-stats.vercel.app/api?username=Aine-dickson&show_icons=true&theme=radical" alt="GitHub Stats">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Aine-dickson&theme=radical" alt="GitHub Streak">
 </p>
 
 ---
 
 ## 📫 How to Reach Me  
-💼 **Portfolio:** [yourwebsite.com](https://yourwebsite.com)  
-📧 **Email:** [your@email.com](mailto:your@email.com)  
-💬 **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
+💼 **Portfolio:** [github.com/Aine-dickson](https://github.com/Aine-dickson)  
+📧 **Email:** [ainedixon01@gmail.com](mailto:ainedixon01@gmail.com)  
+💬 **WhatsApp:** [+256777532858](https://wa.me/256777532858)  
 
 ---
 
