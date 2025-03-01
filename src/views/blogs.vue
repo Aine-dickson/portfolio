@@ -48,6 +48,6 @@
     </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const baseUrl = import.meta.env.BASE_URL;
 </script>
