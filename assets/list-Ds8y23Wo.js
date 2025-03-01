@@ -1,1 +1,0 @@
-import{_ as e}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as t,o as c}from"./index-D18muuah.js";const o={},s={class:"h-full flex flex-col items-center justify-center"};function r(n,l){return c(),t("div",s," Blogs Loading... ")}const a=e(o,[["render",r]]);export{a as default};
