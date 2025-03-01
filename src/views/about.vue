@@ -48,7 +48,7 @@
                 </div>
             </div>
             <div class="w-full pl-0 pt-10 sm:w-3/4 lg:w-2/5 lg:pl-12 lg:pt-0">
-                <language :language="language" :index="index"  v-for="(language, index) in languages" :key="'id_'+ language.name + language.coverage.toString"></language>
+                <language v-for="(lang_var, index) in languages" :key="lang_var.name + lang_var.coverage" :language_var="lang_var" :index="index"></language>
             </div>
         </div>
     </div>
