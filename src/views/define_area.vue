@@ -5,7 +5,7 @@
         <div class="container mx-auto relative z-30 pt-20 pb-12 sm:pt-56 sm:pb-48 lg:pt-64 lg:pb-48">
             <div class="flex flex-col items-center justify-center lg:flex-row">
                 <div class="rounded-full border-8 border-primary shadow-xl h-56 w-56 overflow-hidden">
-                    <img src="/360_F_533376958_JprKLxXpmFJwZMYEXhVFbLR7aTIyEZ5d.jpg" class="h-full w-full rounded-full object-cover" alt="Ainebyoona Dickson’s profile picture, software developer specializing in Rust, JavaScript, and systems development.">
+                    <img src="/me.jpg" class="h-full w-full rounded-full object-cover" alt="Ainebyoona Dickson’s profile picture, software developer specializing in Rust, JavaScript, and systems development.">
                 </div>
                 <div class="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
                     <div class="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl">
