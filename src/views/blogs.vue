@@ -9,7 +9,7 @@
             </h4>
             <div class="mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10">
                 <a href="/post" class="shadow">
-                    <div style="background-image: url(/post-01.png)" class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                    <div :style="`background-image: url(${baseUrl}post-01.png)`" class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                         <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
                         <span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read More</span>
                     </div>
@@ -22,7 +22,7 @@
                     </div>
                 </a>
                 <a href="/post" class="shadow">
-                    <div style="background-image: url(/post-02.png)" class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                    <div :style="`background-image: url(${baseUrl}post-02.png)`" class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                     <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
                     <span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read More</span>
                     </div>
@@ -33,7 +33,7 @@
                     </div>
                 </a>
                 <a href="/post" class="shadow">
-                    <div style="background-image: url(/post-03.png)" class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
+                    <div :style="`background-image: url(${baseUrl}post-03.png)`" class="group relative h-72 bg-cover bg-center bg-no-repeat sm:h-84 lg:h-64 xl:h-72">
                     <span class="absolute inset-0 block bg-gradient-to-b from-blog-gradient-from to-blog-gradient-to bg-cover bg-center bg-no-repeat opacity-10 transition-opacity group-hover:opacity-50"></span>
                     <span class="absolute right-0 bottom-0 mr-4 mb-4 block rounded-full border-2 border-white px-6 py-2 text-center font-body text-sm font-bold uppercase text-white md:text-base">Read More</span>
                     </div>
@@ -47,3 +47,7 @@
         </div>
     </div>
 </template>
+
+<script setup>
+const baseUrl = import.meta.env.BASE_URL;
+</script>

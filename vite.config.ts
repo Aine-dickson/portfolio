@@ -12,7 +12,7 @@ export default defineConfig({
     vueDevTools(),
     tailwindcss()
   ],
-  base: '/portfolio/',
+  base: process.env.NODE_ENV === 'production' ? '/portfolio/' : '/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

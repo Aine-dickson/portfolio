@@ -105,8 +105,8 @@
                 </div>
             </div>
         </div>
-        <div class="bg-cover bg-top bg-no-repeat pb-16 md:py-16 lg:py-24" style="background-image: url(/experience-figure.png)" id="statistics">
-            <div class="container">
+        <div class="bg-cover bg-top bg-no-repeat pb-16 md:py-16 lg:py-24" :style="`background-image: url(${baseUrl}experience-figure.png)`" id="statistics">
+            <div class="container mx-auto">
                 <div class="mx-auto w-5/6 bg-white py-16 shadow md:w-11/12 lg:py-20 xl:py-24 2xl:w-full">
                     <div class="grid grid-cols-2 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5">
                         <div class="flex flex-col items-center justify-center text-center md:flex-row md:text-left">
@@ -170,3 +170,7 @@
         </div>
     </div>
 </template>
+
+<script setup lang="ts">
+const baseUrl = import.meta.env.BASE_URL;
+</script>

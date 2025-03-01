@@ -1,5 +1,5 @@
 <template>
-    <div class="relative bg-cover bg-center bg-no-repeat" style="background-image: url(/bg-hero.jpg)">
+    <div class="relative bg-cover bg-center bg-no-repeat" :style="`background-image: url(${baseUrl}bg-hero.jpg)`">
         <div class="absolute inset-0 z-10 bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to bg-cover bg-center bg-no-repeat"></div>
 
         <div class="container mx-auto relative z-30 pt-20 pb-12 sm:pt-56 sm:pb-48 lg:pt-64 lg:pb-48">
@@ -46,3 +46,7 @@
         </div>
     </div>
 </template>
+
+<script setup>
+const baseUrl = import.meta.env.BASE_URL;
+</script>

@@ -55,7 +55,7 @@
 </template>
 
 <script setup lang="ts">
-import language, { type Lang } from './components/language.vue';
+import language, { type Lang } from '../components/language.vue';
 
 let languages: Lang[] = [
     { name: 'HTML & CSS', coverage: 96 },

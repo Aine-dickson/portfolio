@@ -1,5 +1,5 @@
 <template>
-    <div class="relative bg-primary bg-cover bg-center bg-no-repeat py-16 bg-blend-multiply lg:py-24" style="background-image: url(/bg-cta.jpg)">
+    <div class="relative bg-primary bg-cover bg-center bg-no-repeat py-16 bg-blend-multiply lg:py-24" :style="`background-image: url(${baseUrl}bg-cta.jpg)`">
         <div class="container mx-auto relative z-30">
             <h3 class="text-center font-header text-3xl uppercase leading-tight tracking-wide text-white sm:text-4xl lg:text-5xl">
                 Keep <span class="font-bold">up-to-date</span> <br>
@@ -14,3 +14,7 @@
         </div>
     </div>
 </template>
+
+<script setup>
+const baseUrl = import.meta.env.BASE_URL;
+</script>
